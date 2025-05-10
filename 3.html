@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Navbar and Tables</title>
+
+        <style>
+            ul {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background: #000;
+                list-style: none;
+            }
+
+            li {
+                float: left;
+                padding: 5px;
+            }
+
+            li a {
+                text-decoration: none;
+                color: aliceblue;
+            }
+
+            table {
+                margin-top: 20px;
+                width: 48%;
+                border-collapse: collapse;
+                margin-right: 5px;
+            }
+            td,
+            tr,
+            th {
+                border: 1px solid black;
+
+                padding: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="/1.html">Home</a></li>
+            <li><a href="/1.html">About</a></li>
+            <li><a href="/1.html">Contact</a></li>
+        </ul>
+
+        <table style="float: left">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Roll No</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>Ipsum</td>
+                <td>45</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>DOe</td>
+                <td>99</td>
+                <td>ECE</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th rowspan="2">Name</th>
+                <td>John</td>
+                <td>Jane</td>
+            </tr>
+            <tr>
+                <td>Doe</td>
+                <td>Doe</td>
+            </tr>
+            <tr>
+                <th>Roll No</th>
+                <td>101</td>
+                <td>102</td>
+            </tr>
+            <tr>
+                <th>Department</th>
+                <td>CSE</td>
+                <td>ECE</td>
+            </tr>
+        </table>
+    </body>
+</html>
