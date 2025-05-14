@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Forms in HTML</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            div {
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+        <form action="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="your@mail.com"
+                />
+            </div>
+
+            <div>
+                <label>Gender:</label>
+
+                <input type="radio" name="gender" id="male" />
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+            </div>
+
+            <div>
+                <label>Interests:</label>
+                <input
+                    type="checkbox"
+                    id="coding"
+                    name="interest"
+                    value="coding"
+                />
+                <label for="coding">Coding</label>
+                <input
+                    type="checkbox"
+                    id="music"
+                    name="interest"
+                    value="music"
+                />
+                <label for="music">Music</label>
+            </div>
+
+            <div>
+                <label for="stream">Stream:</label>
+                <select name="stream" id="stream">
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>ME</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </body>
+</html>
