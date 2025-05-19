@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 25px;
+    width: 30%;
+    margin: 15px auto;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+td:hover {
+    scale: 120%;
+    transition: all ease-in-out;
+    transition-duration: 100ms;
+}
+
+.space {
+    border: none;
+    color: transparent;
+}
+
+.radioactive {
+    width: 80%;
+}
+
+.diatomic {
+    background-color: palevioletred;
+}
+
+.polyatomic {
+    background-color: plum;
+}
+
+.alkali {
+    background-color: red;
+}
+
+.noble {
+    background-color: pink;
+}
+
+.alkaline {
+    background-color: orange;
+}
+
+.transition {
+    background-color: yellow;
+}
+
+.metalloid {
+    background-color: greenyellow;
+}
+
+.post-transition {
+    background-color: chocolate;
+}
+
+.lanthanide {
+    background-color: aquamarine;
+}
+
+.actinide {
+    background-color: teal;
+}
+
+.undiscovered {
+    background-color: gray;
+}
