@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Validation</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                margin: 25px;
+                padding: 10px;
+            }
+
+            input {
+                width: 40%;
+                border: 1px solid black;
+                padding: 2px;
+            }
+
+            #button {
+                padding: 5px;
+                margin-top: 10px;
+                border-radius: 15px;
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="phone">Phone Number</label>
+            <input type="number" name="phone" id="phone" />
+
+            <label for="password">Enter Password</label>
+            <input type="password" name="password" id="password" />
+
+            <label for="email">Confirm Password</label>
+            <input type="password" name="confirmPass" id="confirmPass" />
+
+            <input
+                type="submit"
+                value="Submit"
+                id="button"
+                onclick="checkForm()"
+            />
+            <script src="validation.js"></script>
+        </form>
+    </body>
+</html>
